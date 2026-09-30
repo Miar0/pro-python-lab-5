@@ -1,0 +1,11 @@
+input:
+  path: data/rooms.csv
+output:
+  path: output/rooms.json
+processing:
+  skip_invalid: true
+  allowed_types: ["Single", "Double", "Suite"]
+  allowed_statuses: ["Available", "Booked", "Maintenance"]
+logging:
+  level: INFO
+  path: logs/application.log
