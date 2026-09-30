@@ -1,0 +1,7 @@
+room_number,room_type,price,status,client
+101,Single,1000.0,Available,
+102,Double,1500.0,Booked,Олександр
+103,Suite,2500.0,Maintenance,
+104,Unknown,800.0,Available,
+105,Single,-500.0,Available,
+106,Double,1500.0,Booked,
