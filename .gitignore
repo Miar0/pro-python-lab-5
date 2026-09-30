@@ -1,0 +1,22 @@
+# Віртуальне середовище
+.venv/
+env/
+venv/
+
+# Кеш Python та скомпільовані файли
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Кеш типізаторів та тестів
+.mypy_cache/
+.pytest_cache/
+
+# Дані, логи та результати виконання (залишаємо самі папки через .gitkeep, якщо потрібно)
+logs/*.log
+output/*.json
+*.tmp
